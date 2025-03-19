@@ -39,7 +39,7 @@ View the Voyager Cheat Sheet: https://voyager-cheatsheet.ulties.com/
 
 Laravel Admin & BREAD System (Browse, Read, Edit, Add, & Delete), supporting Laravel 8 and newer!
 
-> Want to use Laravel 11 or 12? Use [Voyager 1.5](https://github.com/luydevops/voyager-up)
+> Want to use Laravel 11 or 12? Use [Voyager 1.8](https://github.com/luydevops/voyager-up)
 
 ## Installation Steps
 
@@ -48,13 +48,13 @@ Laravel Admin & BREAD System (Browse, Read, Edit, Add, & Delete), supporting Lar
 After creating your new Laravel application you can include the Voyager package with the following command:
 
 ```bash
-composer require tcg/voyager
+composer require luydevops/voyager:dev-main
 ```
 
 > If you are installing this on Laravel 10, we are working on getting a permanent release available; however, you can still use this with Larvel 12 by requiring the following:
 
 ```bash
-composer require tcg/voyager dev-1.6-l10
+composer require luydevops/voyager:dev-main
 ```
 
 ### 2. Add the DB Credentials & APP_URL
